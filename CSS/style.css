@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 body {
@@ -33,7 +33,7 @@ footer i {
     animation-name: topFadeOut;
     animation-fill-mode: forwards;
     animation-duration: 3s;
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
 
 }
 
@@ -50,7 +50,19 @@ footer i {
     animation-name: topFadeOut;
     animation-fill-mode: forwards;
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
+}
+
+.btn{
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+
+.techin{
+    position: absolute;
+    top: 27px;
+    left: 300px;
 }
 
 
@@ -63,8 +75,8 @@ footer i {
     }
 }
 
-@media (max-width: 576px) { 
-	.col-sm-12 h1{
+@media (max-width: 770px) { 
+	.col-sm-12 h1, h3{
 		font-size: 1.5em;
 	}
 	
@@ -75,5 +87,10 @@ footer i {
 	.col-sm-2, .col-sm-8 p{
 		font-size: 1.2em;
 	}
+
+    .btn{
+        display: block;
+        margin-bottom: 5px;
+    }
 }
 
